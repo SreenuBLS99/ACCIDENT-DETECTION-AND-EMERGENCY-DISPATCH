@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Title TextView for "Add Emergency Contacts" -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Emergency Contacts"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Contact Name EditText -->
+    <EditText
+        android:id="@+id/contactNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter contact name"
+        android:layout_below="@id/titleTextView"
+    android:layout_centerHorizontal="true" />
+
+    <!-- Contact Number EditText -->
+    <EditText
+        android:id="@+id/contactNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactNameEditText"
+        android:hint="Enter contact number"
+        android:inputType="phone"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Save Contact Button -->
+    <Button
+        android:id="@+id/saveContactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactNumberEditText"
+        android:text="Save Contact"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />  <!-- Center the button -->
+</RelativeLayout>

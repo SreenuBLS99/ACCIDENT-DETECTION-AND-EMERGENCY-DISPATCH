@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:id="@+id/mainLayout">
+
+    <!-- Title TextView for "Vehicle Details" -->
+<TextView
+android:id="@+id/titleTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Vehicle Details"
+android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="16dp" />  <!-- Margin below the title -->
+
+<EditText
+android:id="@+id/rcNumberEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Enter RC Number"
+android:layout_marginBottom="16dp" />  <!-- Margin below the EditText -->
+
+<Button
+android:id="@+id/confirmButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Confirm" />
+    </LinearLayout>

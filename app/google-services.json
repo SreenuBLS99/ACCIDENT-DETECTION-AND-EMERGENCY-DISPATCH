@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "201247809238",
+    "firebase_url": "https://cfp-project-196ae-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cfp-project-196ae",
+    "storage_bucket": "cfp-project-196ae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201247809238:android:c2555dd17c9051301f7377",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq19lo-2HGz90t3Yw0qRpz9wHVC083coY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

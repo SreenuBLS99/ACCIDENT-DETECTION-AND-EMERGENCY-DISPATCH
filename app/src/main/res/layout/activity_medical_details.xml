@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medical Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/> <!-- Space below the header -->
+
+    <EditText
+        android:id="@+id/bloodGroupEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Blood Group"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="textCapCharacters" />
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Weight (kg)"
+        android:inputType="numberDecimal"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Save"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="8dp"/> <!-- Added margin on bottom -->
+
+    <!-- Spacer View for gap -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/> <!-- Spacer View -->
+
+    <TextView
+        android:id="@+id/savedDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Delete"
+    android:visibility="gone"
+
+    android:layout_marginTop="8dp"/> <!-- Added margin on top -->
+
+</LinearLayout>

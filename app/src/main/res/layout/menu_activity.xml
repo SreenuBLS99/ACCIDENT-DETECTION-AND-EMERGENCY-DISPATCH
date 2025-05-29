@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+    <!-- Center Image Button for Medical Details -->
+    <ImageButton
+        android:id="@+id/medicalDetailsButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/medical_logo72"
+        android:background="@drawable/rounded_background"
+        android:scaleType="fitCenter"
+    android:contentDescription="Medical Details" />
+
+    <!-- Top Image Button - Information -->
+    <!-- Ensures the image is fully visible -->
+    android:contentDescription="Information" />
+
+    <!-- Bottom Image Button - Delete Contact -->
+
+    <ImageButton
+        android:id="@+id/informationButton"
+        android:layout_width="105dp"
+        android:layout_height="102dp"
+        android:layout_above="@+id/medicalDetailsButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/rounded_background"
+        android:scaleType="fitCenter"
+        android:src="@drawable/information_logo" />
+
+    <ImageButton
+        android:id="@+id/deleteContactsButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/medicalDetailsButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/rounded_background"
+        android:contentDescription="Delete Contact"
+        android:scaleType="fitCenter"
+        android:src="@drawable/deletecontacts_logo" />
+
+    <!-- Left Image Button - Add Contact -->
+    <ImageButton
+        android:id="@+id/addContactButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@id/medicalDetailsButton"
+        android:layout_alignTop="@id/medicalDetailsButton"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/addcontacts_logo"
+        android:background="@drawable/rounded_background"
+        android:scaleType="fitCenter"
+    android:contentDescription="Add Contact" />
+
+    <!-- Right Image Button - View Contacts -->
+    <ImageButton
+        android:id="@+id/viewContactsButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/medicalDetailsButton"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/medicalDetailsButton"
+        android:background="@drawable/rounded_background"
+        android:scaleType="fitCenter"
+        android:src="@drawable/viewcontacts_logo"
+    android:contentDescription="View Contacts" />
+
+</RelativeLayout>

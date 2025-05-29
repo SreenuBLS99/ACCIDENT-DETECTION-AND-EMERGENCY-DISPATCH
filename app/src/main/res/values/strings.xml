@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AcciTrack</string>
+    <string name="gender_prompt">Select Gender</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>
